@@ -4,13 +4,13 @@ $(document).ready(function()
     if(!$('.menu__icon').hasClass('openDone'))
     {
       $('.menu__icon').addClass('openDone');
-      $('.header-mobile-menu').css("right", "0px");
+      $('.header-mobile-menu').css("max-width", "100%");
       $('body').css("overflow-y", "hidden");
     }
     else
     {
       $('.menu__icon').removeClass('openDone');
-      $('.header-mobile-menu').css("right", "-100%");
+      $('.header-mobile-menu').css("max-width", "0");
       $('body').css("overflow-y", "scroll");
     }
   });
