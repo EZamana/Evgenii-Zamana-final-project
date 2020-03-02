@@ -22,7 +22,7 @@ li {
 }
 
 .header-container {
-    max-width: 960px;
+    width: 960px;
     display: flex;
     justify-content: flex-start;
 }
