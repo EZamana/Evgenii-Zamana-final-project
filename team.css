@@ -13,6 +13,7 @@
     display: block;
     margin: 10px;
     background-color: grey;
+    transition: 0.5s;
 }
 
 .player__name {
